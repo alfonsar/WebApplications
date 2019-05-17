@@ -1,0 +1,243 @@
+@charset "UTF-8";
+*{
+		font-family: Avenir Next;
+		overflow: hidden;
+}
+html, body{
+	height: 100%;
+
+}
+
+.background-image{
+		position: fixed;
+	top: -10px;
+	left: -10px;
+	right: 0;
+ 	z-index: -1;
+	display: block;
+	background-image: url("downloads/background.jpg");
+	width: calc(100%+90px);
+  	height: calc(100% + 35px);
+  	filter: blur(4px);
+  	overflow: hidden;
+}
+.vig{
+	position: fixed;
+	top: -10px;
+	left: -10px;
+	right: 0;
+ 	z-index: -1;
+	display: block;
+	background-image: url("downloads/Black Vignette.png");
+	width: calc(120%);
+  	height: calc(100% + 35px);
+  	filter: blur(4px);
+  	overflow: hidden;
+}
+h1{
+	position: fixed;
+	background-color: black;
+	color: white;
+	text-shadow: 1px 1px 5px #FFFFFF;	
+	width: 100%;
+	left: 0;
+	top: -40px;
+	font-size: 45px;
+	padding: 15px;
+}
+p{
+	position: absolute;
+	top: 80px;
+	left: 50px;
+	color: white;
+	font-size: 40px;
+}
+.mytext{
+	position: absolute;
+	width: 300px;
+	left: 700px;
+	top: 20px;
+	font-size: 15px;
+	height: 25px;
+	box-shadow: 1px 1px 8px #FFFFFF;	
+	color: #888888;
+	background-color: white;
+	font-style: italic;
+	padding: 5px;
+}
+.glass{
+  position: absolute;
+  width: 40px;
+  top: 25px;
+  z-index: 2;
+  left: 920px;
+  content:url("downloads/magnifying_glass.jpeg");
+   }
+ .loc {
+  	position: absolute;
+	top: 200px;
+  	left: 370px;
+  	
+  }
+  #locT{
+  position: absolute;
+  top: 350px;
+  left: 385px;
+  color: white;
+  font-size: 30px;
+  }
+  #one{
+  position: absolute;
+  top: 260px;
+  left: 370px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  }
+  .snowflake{
+  position: absolute;
+  top: 200px;
+  left: 625px;
+  }
+  #snowflakeT{
+  position: absolute;
+  top: 350px;
+  left: 630px;
+  color: white;
+  font-size: 30px;
+  }
+  #two{
+  position: absolute;
+  top: 260px;
+  left: 615px;
+  color: white;
+  font-size: 20px;
+   text-align: center;
+  }
+  .sun{
+  position: absolute;
+  top: 200px;
+  left: 880px;
+  }
+  #sunT{
+  position: absolute;
+  top: 350px;
+  left: 895px;
+  color: white;
+  font-size: 30px;
+  }
+  #three{
+  	position: absolute;
+  	top: 260px;
+  	left: 870px;
+  	color: white;
+  	font-size: 20px;
+  	 text-align: center;
+  }
+  .wind{
+  position: absolute;
+  top: 200px;
+  left: 1135px;
+  }
+  #windT{
+  position: absolute;
+  top: 350px;
+  left: 1170px;
+  color: white;
+  font-size: 30px;
+  }
+  #four{
+  position: absolute;
+  top: 260px;
+  left: 1145px;
+  color: white;
+  font-size: 20px;
+   text-align: center;
+  }
+  .drop{
+  position: absolute;
+  top: 415px;
+  left: 370px;
+  }
+  #dropT{
+  position: absolute;
+  top: 565px;
+  left: 385px;
+  color: white;
+  font-size: 30px;
+  }
+  #five{
+  	position: absolute;
+  	top: 480px;
+  	left: 420px;
+  	color: white;
+  	font-size: 20px;
+  	 text-align: center;
+  }
+  .icon{
+  position: absolute;
+  top: 415px;
+  left: 625px;
+  }
+  #iconT{
+  position: absolute;
+  top: 565px;
+  left: 628px;
+  color: white;
+  font-size: 30px;
+  }
+  #six{
+  	position: absolute;
+  	top: 480px;
+  	left: 675px;
+  	color: white;
+  	font-size: 20px;
+  	 text-align: center;
+  }
+  .therm{
+  position: absolute;
+  top: 415px;
+  left: 880px;
+  }
+  #thermT{
+  position: absolute;
+  top: 565px;
+  left: 878px;
+  color: white;
+  font-size: 30px;
+  
+  }
+  #seven{
+ 	position: absolute;
+  	top: 480px;
+  	left: 885px;
+  	color: white;
+  	font-size: 20px;
+  	 text-align: center;
+  }
+  .sunrise{
+  position: absolute;
+  top: 415px;
+  left: 1135px;
+  }
+  #sunriseT{
+  position: absolute;
+  top: 565px;
+  left: 1145px;
+  color: white;
+  font-size: 30px;
+  }
+  #eight{
+  	position: absolute;
+  	top: 480px;
+  	left: 1125px;
+  	color: white;
+  	font-size: 20px;
+  	 text-align: center;
+  }
+.choices{
+	position: absolute;
+	top: 5%;
+	left: 55%;
+	color: white;
+}

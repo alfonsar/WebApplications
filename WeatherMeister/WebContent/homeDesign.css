@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+*{
+	font-family: Avenir Next;
+	overflow: hidden;
+}
+
+
+.background-image{
+ 	position: fixed;
+	top: -10px;
+	left: -10px;
+	right: 0;
+ 	z-index: -1;
+	display: block;
+	background-image: url("downloads/background.jpg");
+	width: calc(100%+90px);
+  	height: calc(100% + 35px);
+  	filter: blur(4px);
+  	overflow: hidden;
+ 	
+ 	
+ }
+ 
+.vig{
+	position: fixed;
+	top: -10px;
+	left: -10px;
+	right: 0;
+ 	z-index: -1;
+	display: block;
+	background-image: url("downloads/Black Vignette.png");
+	width: calc(120%);
+  	height: calc(100% + 35px);
+  	filter: blur(4px);
+  	overflow: hidden;
+}
+
+#topWord{
+	z-index: 2;
+	margin-left: 0px;
+	margin-top: 0px;
+	color: #ffffff;
+	font-size: 20px;
+ 	text-shadow: 1px 1px 5px #FFFFFF;
+ 	width: 100%;
+	border-color: black;
+	background-color: black;
+	border-style: solid;
+	
+}
+
+.mytext{
+	z-index: 2;
+	position: relative;
+	top: 20%;
+	left: 37%;
+	padding: .5%;
+	height: 2%;
+	width: 26%;
+	font-style: italic;
+	color: #fffdfd;
+	font-size: 20px;
+	background-color: black;
+	opacity: 0.2;
+}
+
+.sub{
+	z-index: 3;
+	position: absolute;
+	left: 48%;
+	top: 83%;
+	text-align: center;
+	font-size: 16px;
+	border-radius: 5px;
+	height: 31px;
+	width: 100px;
+	padding: .5%;
+	color: white;
+	background-color: black;
+	opacity: 0.4;
+	
+}
+#latitude{
+	z-index: 2;
+	position: relative;
+	top: -30;
+	left: 40%;
+	padding: .5%;
+	height: 3%;
+	width: 5%;
+	font-style: italic;
+	color: #fffdfd;
+	font-size: 20px;
+	background-color: black;
+	opacity: 0.2;
+}
+#longitude{
+	z-index: 2;
+	position: relative;
+	top: 100%;
+	left: 100%;
+	padding: .5%;
+	height: 2%;
+	width: 6%;
+	font-style: italic;
+	color: #fffdfd;
+	font-size: 20px;
+	background-color: black;
+	opacity: 0.2;
+}
+#choices {
+	position: relative;
+	top: 0;
+	left: 45%;
+	color: #ffffff;
+	width: 450;
+	height:40px;
+	padding: 10px;
+    opacity: 0.6;
+ 	filter: alpha(opacity=60); /* For IE8 and earlier */	
+}
+
+.center {
+  display: block;
+  z-index: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+#flass{
+	position: relative;
+  top: -35px;
+  left: 60%;
+  display: block;
+  z-index: 0;
+  width: 30px;
+  z-index: 2;
+	
+}
